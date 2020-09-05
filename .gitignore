@@ -1,0 +1,13 @@
+/canal_client/
+/service/service_acl/
+.idea
+.mvn
+mvnw
+mvnw.cmd
+HELP.md
+guli_parent.iml
+*.iml
+/service/service_oss/src/main/resources/
+/service/service_order/src/main/resources/
+/service/service_vod/src/main/resources/
+/service/service_ucenter/src/main/resources/
