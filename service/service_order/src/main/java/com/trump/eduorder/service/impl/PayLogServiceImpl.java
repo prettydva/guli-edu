@@ -51,7 +51,7 @@ public class PayLogServiceImpl extends ServiceImpl<PayLogMapper, PayLog> impleme
             map.put("nonce_str", WXPayUtil.generateNonceStr());
             map.put("body", order.getCourseTitle());
             map.put("out_trade_no", orderNo);
-            map.put("total_fee", order.getTotalFee().multiply(new BigDecimal("100")).longValue() + "");
+            map.put("total_fee", order.getTotalFee()+"");
             map.put("spbill_create_ip", ConstantOrderUtils.SP_BILL_CREATE_IP);
             map.put("notify_url", ConstantOrderUtils.NOTIFY_URL);
             map.put("trade_type", ConstantOrderUtils.TRADE_TYPE);
